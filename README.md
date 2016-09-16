@@ -4,6 +4,15 @@
 
 The goal of this spike is to gain a basic understanding about how to use Dockerfiles and understand what they do, as well as how to use Docker Compose to manage a simple orchestration case.
 
+Please note that this repo is not a tutorial on Docker (NodeJS or Redis), it is simply an exercise reinforcing basic knowledge about Docker.
+
+## Resources used
+
+- [Introduction to Docker](https://www.youtube.com/watch?v=Q5POuMHxW-0)
+- [Docker Basics](https://www.lynda.com/Docker-tutorials/Docker-Basics/485649-2.html)
+- [Docker Getting Started](https://docs.docker.com/engine/getstarted/)
+- [Docker Compose Getting Started](https://docs.docker.com/compose/gettingstarted/)
+
 ## Technologies used
 
 - [Docker](https://docs.docker.com/engine/installation/)
