@@ -38,6 +38,12 @@ Please note that this repo is not a tutorial on Docker (NodeJS or Redis), it is 
 
 ## Getting up and running
 
+### Expected outcome
+
+If run successfully you will have a NodeJS app which you can access through your browser. It also has a hit counter feature, where the data is stored inside a Redis instance - it was done this way to demonstrate the use of two Docker containers.
+
+### Steps
+
 1. [Install Docker](https://docs.docker.com/engine/installation/) on your operating system of choice.
 2. Using a terminal / command prompt navigate to the repo's `node-app` folder.
 3. `$ docker-compose up -d`
