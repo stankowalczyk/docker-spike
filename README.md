@@ -11,7 +11,7 @@ The goal of this spike is to gain a basic understanding about how to use Dockerf
 
 ## Tasks undertaken
 
-
+- Create a basic node app to be run inside one container (`/node-app`)
 
 ## What was found out
 
