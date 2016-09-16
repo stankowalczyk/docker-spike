@@ -1,0 +1,11 @@
+version: '2'
+services:
+  node:
+    build: .
+    container_name: "node-app"
+    image: "node-app"
+    depends_on:
+    - redis
+  redis:
+    container_name: "redis"
+    image: redis

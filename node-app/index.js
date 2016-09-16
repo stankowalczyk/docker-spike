@@ -5,7 +5,7 @@ import redis   from 'redis';
 Promise.promisifyAll(redis.RedisClient.prototype);
 Promise.promisifyAll(redis.Multi.prototype);
 
-let redisClient = redis.createClient();
+let redisClient = redis.createClient({ host: 'redis' });
 
 let app = express();
 
